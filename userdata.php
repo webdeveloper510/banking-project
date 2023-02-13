@@ -171,9 +171,9 @@ function pr($var)
         $api = '1';
         $date = date('d-m-Y h:i:s');
 
-        $servername = "localhost";
+        $servername = "dev.dynavate.co";
         $username = "root";
-        $password = "";
+        $password = "admin@123";
         $dbname = "banking";
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
